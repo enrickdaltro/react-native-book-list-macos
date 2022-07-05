@@ -1,7 +1,7 @@
 import {View, Text, Button} from 'react-native';
 import React from 'react';
 import {observer} from 'mobx-react-lite';
-import {useStore} from '../store';
+import {useStore} from '../store/root';
 
 const Books = () => {
   const store = useStore();

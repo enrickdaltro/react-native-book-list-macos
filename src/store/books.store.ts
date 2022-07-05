@@ -1,5 +1,5 @@
 import {makeAutoObservable} from 'mobx';
-import {IRootStore} from 'store';
+import {IRootStore} from 'store/root';
 
 export let createBooksStore = (root: IRootStore) => {
   let store = makeAutoObservable({

@@ -1,7 +1,7 @@
 import React from 'react';
-import {View, Text} from 'react-native';
-import Books from './containers/Books';
-import {root, StoreProvider} from './store';
+
+import Books from 'containers/Books';
+import {root, StoreProvider} from 'store/root';
 
 interface IProps {}
 
