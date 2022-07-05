@@ -1,12 +1,14 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import Books from './containers/Books';
+import {root, StoreProvider} from './store';
 
 interface IProps {}
 
 export const App = (props: IProps) => {
   return (
-    <View>
-      <Text>Hello from typescript</Text>
-    </View>
+    <StoreProvider value={root}>
+      <Books />
+    </StoreProvider>
   );
 };

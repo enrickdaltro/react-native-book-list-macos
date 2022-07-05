@@ -13,6 +13,8 @@
     "nuke": "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules/ && yarn && yarn start --reset-cache"
   },
   "dependencies": {
+    "mobx": "^6.6.1",
+    "mobx-react-lite": "^3.4.0",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-macos": "^0.63.0-0"
